@@ -1,28 +1,69 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  background: #ffffff;
-  color: #000000;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  background: #f8fff9; /* very light green */
+  color: #444;
 }
 
-nav {
-  background: #eeeeee;
-  padding: 10px;
+
+/* Header */
+header {
+  background: #ffdce8; /* pastel pink */
+  text-align: center;
+  padding: 25px 10px;
+  border-bottom: 3px solid #d8f5dc;
 }
+
+
+header h1 {
+  margin: 0;
+}
+
+
+/* Navigation */
+nav {
+  background: #d8f5dc; /* pastel green */
+  padding: 10px;
+  text-align: center;
+}
+
 
 nav a {
-  margin-right: 15px;
+  margin: 0 15px;
   text-decoration: none;
-  color: black;
+  color: #333;
+  font-weight: bold;
 }
 
+
+nav a:hover {
+  color: #ff7fa5;
+}
+
+
+/* Main layout */
 main {
   padding: 20px;
+  max-width: 700px;
+  margin: auto;
 }
 
-.project {
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin-bottom: 10px;
+
+/* Cards */
+.card {
+  background: white;
+  border: 2px solid #ffdce8;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
 }
+
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+    
+
 
