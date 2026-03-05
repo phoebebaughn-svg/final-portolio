@@ -20,7 +20,7 @@ header h1 {
 
 /* Navigation */
 nav {
-  background: #ffffffcc;
+
   backdrop-filter: blur(6px);
   padding: 12px;
   text-align: center;
@@ -40,7 +40,7 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-/* Main layout */
+
 main {
   padding: 30px;
   max-width: 900px;
@@ -58,13 +58,10 @@ main {
   border-radius: 18px;
   padding: 18px;
   margin-bottom: 20px;
-
   border: 1px solid #ffeaf2;
-
   box-shadow: 
   0 10px 25px rgba(0,0,0,0.05),
   0 4px 10px rgba(255,150,180,0.1);
-
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
@@ -93,21 +90,14 @@ button {
   transition: all 0.25s ease;
 }
 
-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 14px rgba(255,140,170,0.25);
+
+footer{
+  margin-top:40px;
+  background: linear-gradient(135deg,#ffdce8,#d8f5dc);
+  padding:25px 10px;
+  text-align:center;
+  border-top:3px solid #f3f3f3;
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  padding: 18px;
-  margin-top: 30px;
-  font-size: 14px;
-  color: #777;
-}
 
-/* Smooth page feel */
-* {
-  box-sizing: border-box;
-}
+
